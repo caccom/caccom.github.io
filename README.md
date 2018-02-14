@@ -2,9 +2,9 @@
   <img src="http://i.imgbox.com/Di0zXjiK.png" width="100">
 </p>
 
-# CACCOM Webste
+# CACCOM Website
 
-[Access the website](http://caccom.github.io/caccom)
+[Access the website](http://caccom.github.io/)
 
 This project uses:
 - [Pug](https://pugjs.org/)
