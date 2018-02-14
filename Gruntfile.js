@@ -89,6 +89,7 @@ module.exports = function(grunt) {
       autoprefixer: {
         files: ['assets/css/style.css'],
         tasks: ['autoprefixer'],
+      },
       concat: {
         files: ['assets/js/modules/*.js'],
         tasks: ['concat'],

@@ -2,13 +2,13 @@ doctype html
 html(lang='pt-br')
   head
     meta(charset='utf-8')
-    meta(name='description', content='')
+    meta(name='description', content='Site do centro acadêmico de ciência da computação da UFOPA')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
     meta(name='format-detection', content='telephone=no')
 
     //- Title
     //- ===================================
-    title
+    title CACCOM - Centro Acadêmico de Ciência da Computação - IEG/UFOPA
 
     //- Favicon and SVG logo
     //- ===================================
@@ -20,6 +20,25 @@ html(lang='pt-br')
 
   body
 
+    header.header
+      a.header__logo
+        img.header__logo__image(src="assets/img/logo-dark.svg")
+        span.header__logo__description
+          | Centro Acadêmico de Ciência da Computação - IEG/UFOPA
+
+    nav.nav
+      ul.nav__list
+        li.nav__list__item
+          a.nav__list__item__link(href="javascript:void(0)") Inicio
+        li.nav__list__item
+          a.nav__list__item__link(href="javascript:void(0)") Sobre
+        li.nav__list__item
+          a.nav__list__item__link(href="javascript:void(0)") Projetos
+        li.nav__list__item
+          a.nav__list__item__link(href="javascript:void(0)") Blog
+        li.nav__list__item
+          a.nav__list__item__link(href="javascript:void(0)") Contato
+
 
     //- JS scripts
     //- ===================================
@@ -28,6 +47,7 @@ html(lang='pt-br')
 //- Stylesheet and fonts
 //- ===================================
 link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css')
+link(href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet")
 link(rel='stylesheet', href='assets/css/style.css')
 
 
